@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Manrope:wght@700&display=swap');
+
+:root{
+/* fonts **/
+--font-family-1: 'Cormorant Garamond', serif;
+--font-family-2: 'Manrope', sans-serif;
+
+/* colors **/
+--color-green: #093931;
+--color-pink: #F5D38E;
+--color-white:#FFF;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+        
+       max-width: 1440px;
+        flex-shrink: 0;
+        padding-top: 8px;
+        padding-left: 132px;
+        background-color: var(--color-green);
+}
+
+.header-home{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+
+
+
+}
+.header-home > div{
+    color: var(--color-pink);
+    font-family: var(--font-family-1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; 
+    width: 95px;
+    height: 46px;
+    
+    
+}
+.navbar ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37.26px;
+
+
+}
+.list-collection{
+list-style: none;
+color: var(--color-white);
+font-family: var(--font-family-2);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+.list-about{
+    list-style: none;
+    color: var(--color-white);
+    font-family: var(--font-family-2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    }
+    .list-collection{
+        list-style: none;
+        color: var(--color-white);
+        font-family: var(--font-family-2);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; 
+        }
+        .list-contact{
+            list-style: none;
+            color: var(--color-white);
+            font-family: var(--font-family-2);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+            }
+            .list-shop{
+                list-style: none;
+                color: var(--color-white);
+                font-family: var(--font-family-2);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                }
+.list-home{
+color: var(--color-pink);
+font-family: var(--font-family-2);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+}
+.figure {
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content:center;
+
+}
+
+.img-profile{
+    padding-top: 21px;
+    padding-right: 176px;
+    padding-bottom: 21px;
+    padding-left: 1244px;
+    }
+    .img-cart{
+     padding-top: 21px;
+     padding-right: 132px;
+     padding-bottom: 21px;
+     padding-left: 1288px;
+    }
