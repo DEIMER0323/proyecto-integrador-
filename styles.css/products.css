@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Manrope:wght@700&display=swap');
+
+:root{
+/* fonts **/
+--font-family-1: 'Cormorant Garamond', serif;
+--font-family-2: 'Manrope', sans-serif;
+
+/* colors **/
+--color-green: #093931;
+--color-pink: #F5D38E;
+--color-white:#FFF;
+--color-green2:rgba(0, 0, 0, 0.00);
+--color-blue:#EFFDFA;
+--color-green3:#0D554A;
+--color-grey:#9095A0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+ .container__home{
+    max-width: 1440px;
+    background-color: var(--color-green);
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+ }
