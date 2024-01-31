@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Manrope:wght@700&display=swap');
+
+:root{
+/* fonts **/
+--font-family-1: 'Cormorant Garamond', serif;
+--font-family-2: 'Manrope', sans-serif;
+
+/* colors **/
+--color-green: #093931;
+--color-pink: #F5D38E;
+--color-white:#FFF;
+--color-green2:rgba(0, 0, 0, 0.00);
+--color-blue:#EFFDFA;
+--color-green3:#0D554A;
+--color-grey:#9095A0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+                                                            /*header*/
+ .container__home{
+    width: 1440px;
+    height: 62px;
+    flex-shrink: 0;
+    background-color: var(--color-green); 
+ }
+
+ .content-darling{
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    color: #F5D38E;
+    margin-left: 132px;
+    margin-right: 1213px;
+ } 
+
+ .navbar{
+    display: flex;
+    height: 43px;
+    padding: 10.5px 18.63px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+ }
+    
+.list__home{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    list-style: none;
+    position: absolute;
+    left: 809px;
+    top:20.5px;
+}
+
+.list__shop{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    list-style: none;
+    position: absolute;
+    left: 884px;
+    top:20.5px;
+}
+
+.rectangle{
+    position: absolute;
+    left: 866px;
+    top:39px;
+}
+
+.list__collection{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    list-style: none;
+    position: absolute;
+    left: 958px;
+    top:20.5px;
+}
+
+.list__about{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    list-style: none;
+    position: absolute;
+    left: 1069px;
+    top:20.5px;
+}
+
+.list__contact{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    list-style: none;
+    position: absolute;
+    left: 1149px;
+    top:20.5px;
+}
+
+.figure-img1{
+    position: absolute;
+    left: 1244px;
+    top:20.5px;
+}
+
+.figure-img2{
+    position: absolute;
+    left: 1288px;
+    top:20.5px;
+}
+
+                                              /*sectionI*/
+
+.image_8{
+    width: 295px;
+    height: 295px;
+    flex-shrink: 0;
+    border-radius: 148px;
+    background: url(<path-to-image>), lightgray 0px -97px / 115.593% 173.22% no-repeat;
+    position:absolute;
+    left: 573px;
+    top:116px;
+}
+
+.title_one{
+    color: #171A1F;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    position: absolute; 
+    left: 573px;
+    top:435px;
+}
+
+.prhase_one{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    position: absolute; 
+    left: 573px;
+    top:495px;   
+}
+
+.calendar{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: absolute; 
+    left: 464px;
+    top:590px;   
+}
+
+.date{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    position: absolute; 
+    left: 500px;
+    top:589px;    
+}
+
+.date_one{
+    color: #171A1F;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;  
+    position: absolute; 
+    left: 900px;
+    top:589px;   
+}
+
+.profile{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: absolute; 
+    left: 464px;
+    top:636px;   
+}
+
+.customer{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    position: absolute; 
+    left: 500px;
+    top:635px;    
+}
+
+.john{
+    color: #171A1F;
+    text-align: right;
+    font-family: "Cormorant Garamond";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    position: absolute; 
+    left: 909px;
+    top:635px;    
+}
+
+.money{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0; 
+    position: absolute; 
+    left: 464px;
+    top:685px;   
+}
+
+.payment{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    position: absolute; 
+    left: 500px;
+    top:684px;   
+}
+
+.visa{
+    width: 46px;
+    height: 32px;
+    flex-shrink: 0; 
+    position: absolute; 
+    left: 930px;
+    top:681px;
+}
+
+.receipt{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0; 
+    position: absolute; 
+    left: 464px;
+    top:755px;   
+}
+
+.order{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    position: absolute; 
+    left: 500px;
+    top:754px;      
+}
+
+.number{
+    color: #171A1F;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute; 
+    left: 902px;
+    top:754px;  
+}
+
+.dollar{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: absolute; 
+    left: 464px;
+    top:806px;
+}
+
+.total{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    position: absolute; 
+    left: 500px;
+    top:805px;
+}
+
+.number_two{
+    color: #171A1F;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute; 
+    left: 918px;
+    top:800px;
+}
+
+.line{
+    color: #171A1F;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;  
+    position: absolute; 
+    left: 464px;
+    top:877px;  
+}
+
+.imagen_container{
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;   
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 0px -22px / 100% 146.809% no-repeat;
+    position: absolute; 
+    left: 464px;
+    top:920px; 
+}
+
+.luxury{
+    color: #323842;
+    font-family: "Cormorant Garamond";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    position: absolute; 
+    left: 574px;
+    top:930px; 
+}
+
+.code{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute; 
+    left: 574px;
+    top:954px; 
+}
+
+.price__uno{
+    color: #171A1F;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; 
+    position: absolute; 
+    left: 910px;
+    top: 956px;   
+}
+
+.fame{
+    display: flex;
+    width: 32px;
+    height: 28px;
+    padding: 4px 12px 4px 8px;
+    align-items: center;
+    flex-shrink: 0;   
+    border-radius: 14px;
+    background: #F3F4F6; 
+    position: absolute; 
+    left: 582px;
+    top: 980px;   
+}
+
+.imagen_containerii{
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;    
+    background: #FFF;
+    box-shadow: 0px 3px 6px 0px rgba(18, 15, 40, 0.12);
+    position: absolute; 
+    left: 464px;
+    top: 1030px;
+}
+
+.exquisite{
+    color: #323842;
+    font-family: "Cormorant Garamond";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    position: absolute; 
+    left: 574px;
+    top: 1040px;    
+}
+
+.code_two{
+    color: #9095A0;
+    font-family: Manrope;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    position: absolute; 
+    left: 574px;
+    top: 1064px;   
+}
+
+.fame_ii{
+    display: flex;
+    width: 32px;
+    height: 28px;
+    padding: 4px 12px 4px 8px;
+    align-items: center;
+    flex-shrink: 0;  
+    border-radius: 14px;
+    background: #F3F4F6;  
+    position: absolute; 
+    left: 574px;
+    top: 1090px;   
+}    
+
+.price__dos{
+    color: #171A1F;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;   
+    position: absolute; 
+    left: 912px;
+    top: 1066px;  
+}
+
+.button_continue{
+    display: inline-flex;
+    padding: 9px 15px 9px 16px;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 22px;
+    background: #0D554A;  
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;  
+    position: absolute; 
+    left: 633px;
+    top: 1157px;    
+}
+
+
+                                                 /*footer*/
+
+.footer{
+    background: #093931;
+    width: 1470px;
+    height: 234px;
+    flex-shrink: 0;
+    top:1366px;
+    position: relative;
+}
+
+.title-footer{
+    color: #F5D38E;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 153.333% */
+    position:absolute;
+    left: 132px;
+    top: 44px;
+}
+
+.footer-items{
+    position:absolute;
+    left: 433px;
+    top: 44px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+.titleII-footer{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    position:absolute;
+    left: 924px;
+    top: 44px;
+}
+
+.paragraph-footer{
+    color: #FAFAFB;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    position:absolute;
+    left: 924px;
+    top: 75px;
+}
+
+.Search{
+    border-radius: 18px 0px 0px 18px;
+    border: 1px solid #FFF;
+    display: inline-flex;
+    padding: 7px 132px 6px 12px;
+    align-items: center;
+    gap: 6px;
+    position:absolute;
+    left: 924px;
+    top: 110px;
+    
+}
+
+.footer_button{
+    color: #6B4A09;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    display: inline-flex;
+    padding: 7px 23.5px 7px 24.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 18px 18px 0px;
+    background: #F2C66D;
+    position:absolute;
+    left: 1230px;
+    top: 108px;
+
+}
+
+.linea_footer{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    position:absolute;
+    left: 132px;
+    top: 187px;
+
+}
+
+.icons_footer{
+    position:absolute;
+    left: 1230px;
+    top: 187px;
+}
