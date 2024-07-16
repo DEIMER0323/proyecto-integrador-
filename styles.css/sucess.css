@@ -131,8 +131,11 @@
 .figure-img2{
     position: absolute;
     left: 1288px;
-    top:20.5px;
 }
+    #btnCart{
+        cursor: pointer;
+    }
+
 
                                               /*sectionI*/
 

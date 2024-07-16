@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./products/products.css">
+    
     <title>Products</title>
-    <link rel="stylesheet" href="../styles.css/products.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css/products.css">
     <script src="https://kit.fontawesome.com/5f1bcae3d7.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -33,7 +33,7 @@
                     <img src="/assets/Image_PageII/Header_PageII/Profile 2.svg" class="img-profile" alt="Profile">
                     </div>
                     <div class="figure-img2">
-                    <img src="/assets/Image_PageII/Header_PageII/Shopping cart 2.svg" class="img-cart" alt="cart"> 
+                    <img id="btnCart" src="/assets/Image_PageII/Header_PageII/Shopping cart 2.svg" class="img-cart" alt="cart"> 
                     </div>
                 </figure>
              
@@ -59,7 +59,7 @@
     <main>
                                            <!--sectionII-->
         <section>
-            <div>
+            <div id="container__Cards">
 
             <ul>
                 <li class="allone"><a href="#"></a>All</li>
@@ -223,6 +223,14 @@
                </div>
            </div>
     </footer>
+    <div class="modalCart hidden">
+        <section>
+          <button class="closeModal fa-solid fa-xmark" id="closeModal" ></button> 
+          <span>Contenido del modal</span>
+        </section>
+      </div>
+    
+      <script src="/script.js/modalCart.js"></script>
     <script src="/script.js/product.js"></script>
 </body>
 </html>

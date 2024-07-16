@@ -49,6 +49,30 @@
     border-radius: 4px;
     
  }
+
+ .hidden{
+    display:none;
+ }
+ 
+ .show{
+    display:flex;
+ }
+
+ .modalCart {    
+    position: fixed;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05050549;
+    /* visibility: hidden; */
+}
+.modalCart section{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
     
 .list__home{
     color: #FFF;
@@ -131,6 +155,9 @@
     position: absolute;
     left: 1288px;
     top:20.5px;
+}
+#btnCart{
+    cursor: pointer;
 }
 
 

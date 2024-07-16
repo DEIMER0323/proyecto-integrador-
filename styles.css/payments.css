@@ -101,5 +101,8 @@ flex-shrink: 0;
  margin-right: 176px;
   
 }  
+#btnCart{
+   cursor: pointer;
+}
 
 
